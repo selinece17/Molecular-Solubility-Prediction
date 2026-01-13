@@ -1,0 +1,35 @@
+# Core dependencies for Solubility Prediction Project
+# Python 3.12+
+
+# Data processing
+pandas>=2.2.0
+numpy>=2.0.0
+
+# Cheminformatics
+rdkit>=2025.9.0
+
+# Machine learning
+scikit-learn>=1.6.0
+xgboost>=3.0.0
+lightgbm>=4.6.0
+
+# Deep learning (for GNN experiments)
+torch>=2.0.0
+torch-geometric>=2.4.0
+
+# Visualization
+matplotlib>=3.10.0
+seaborn>=0.13.0
+
+# Utilities
+joblib>=1.5.0
+tqdm>=4.65.0
+
+# Jupyter (for running notebooks)
+jupyter>=1.0.0
+ipykernel>=6.0.0
+
+# Optional: PyTorch Geometric extensions
+# Install separately based on your CUDA version:
+# pip install pyg_lib torch-scatter torch-sparse torch-cluster torch-spline-conv \
+#     -f https://data.pyg.org/whl/torch-2.0.0+cu118.html
